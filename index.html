@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Te quiero abi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/46/46029.png">
+
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(192, 162, 139);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.cora1 {
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cora1 div {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(22, 20, 20); 
+}
+
+.mid1 {
+    left:234px;
+    border-radius: 50%;
+    transform: rotate(45deg);
+    border: 5px solid white;
+    animation-name: uno;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.mid2 {
+    right: 220px;
+    border-radius: 50%;
+    transform: rotate(45deg);
+    border: 5px solid white;
+    animation-name: uno;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.mid3 {
+    width: 190px;
+    height: 190px;
+    left: 306px;
+    top: 46.5%;
+    border-bottom: 4px solid white;
+    border-right: 4px solid white;
+    border-top-left-radius: 6px;
+    animation-name: dos;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+h2 {
+    position: absolute;
+    top: 150px;
+    font-size: 5rem;
+
+}
+
+
+@keyframes uno {
+    from {
+        transform: scale(.8);
+
+    }
+
+    to {
+        transform: scale(1);
+
+    }
+}
+
+@keyframes dos {
+    from {
+        transform: scale(.8) rotate(45deg);
+
+        
+    }
+
+    to {
+        transform: scale(1) rotate(45deg);
+
+    }
+
+
+}
+
+
+
+
+
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="cora1">
+
+        <h2>Te quiero mucho</h2>
+
+        <div class="mid1"></div>
+        <div class="mid2"></div>
+        <div class="a mid3"></div>    
+    </div>
+
+</body>
+</html>
